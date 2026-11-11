@@ -6,6 +6,7 @@
 - **Thương hiệu:** PhuquocBDS.com — Chuyên trang Bất động sản Phú Quốc (Thổ cư, Hàng ngộp, Dòng tiền, Quy hoạch 2040).
 - **Chủ sở hữu:** Lê Văn Hoài
 - **Hotline / Zalo:** `079.228.1999` (`https://zalo.me/0792281999`)
+- **Kho lưu trữ GitHub (Repository):** `https://github.com/vanhoaitradebot-afk/phuquocbds`
 - **Link web đang chạy thực tế (Production):** https://phuquocbds.surge.sh
 - **Mục tiêu tên miền chính thức:** `phuquocbds.com` (Chiến lược chi tiết nằm trong file `nhat_ky_tu_van_seo_phuquocbds.md`).
 
