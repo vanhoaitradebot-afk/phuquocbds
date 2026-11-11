@@ -258,31 +258,6 @@
             <li><strong>Hạ tầng giao thông nâng cấp:</strong> Nhiều tuyến nhánh bê tông hóa và hệ thống điện nước lưới quốc gia được kéo tới từng ngõ hẻm.</li>
           </ul>
 
-          <div class="bg-gradient-to-r from-red-50 to-orange-50 border border-red-200 rounded-2xl p-6 my-8">
-            <div class="flex flex-col sm:flex-row items-center gap-5">
-              <div class="w-16 h-16 rounded-full bg-brand-red text-white flex items-center justify-center font-black text-2xl flex-shrink-0 shadow-md">
-                H
-              </div>
-              <div class="flex-1 text-center sm:text-left">
-                <h4 class="text-lg font-bold text-gray-900 mb-1">Cần nguồn hàng đất ngộp Bến Tràm giá tốt?</h4>
-                <p class="text-xs sm:text-sm text-gray-600 mb-3">
-                  Tôi đang nắm giữ hơn <strong>10 lô đất chính chủ gửi bán gấp tại Bến Tràm</strong> (diện tích từ 100m² thổ cư đến 3 công đất vườn) với giá chiết khấu sâu từ 300 - 800 triệu so với mặt bằng thị trường.
-                </p>
-                <div class="flex flex-wrap items-center justify-center sm:justify-start gap-3">
-                  <a href="https://zalo.me/0792281999" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs sm:text-sm px-4 py-2.5 rounded-lg shadow-sm transition">
-                    💬 Gửi vị trí qua Zalo: 079.228.1999
-                  </a>
-                  <a href="tel:0792281999" class="bg-brand-red hover:bg-brand-darkred text-white font-bold text-xs sm:text-sm px-4 py-2.5 rounded-lg shadow-sm transition">
-                    📞 Gọi trực tiếp: 079.228.1999
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      
           <!-- ========================================== -->
           <!-- MA TRẬN KIẾN THỨC BĐS PHÚ QUỐC (BÀI LIÊN QUAN) -->
           <!-- ========================================== -->
@@ -364,7 +339,32 @@
             </div>
           </section>
           <!-- /MA TRẬN KIẾN THỨC -->
-    </article>
+
+          <div class="bg-gradient-to-r from-red-50 to-orange-50 border border-red-200 rounded-2xl p-6 my-8">
+            <div class="flex flex-col sm:flex-row items-center gap-5">
+              <div class="w-16 h-16 rounded-full bg-brand-red text-white flex items-center justify-center font-black text-2xl flex-shrink-0 shadow-md">
+                H
+              </div>
+              <div class="flex-1 text-center sm:text-left">
+                <h4 class="text-lg font-bold text-gray-900 mb-1">Cần nguồn hàng đất ngộp Bến Tràm giá tốt?</h4>
+                <p class="text-xs sm:text-sm text-gray-600 mb-3">
+                  Tôi đang nắm giữ hơn <strong>10 lô đất chính chủ gửi bán gấp tại Bến Tràm</strong> (diện tích từ 100m² thổ cư đến 3 công đất vườn) với giá chiết khấu sâu từ 300 - 800 triệu so với mặt bằng thị trường.
+                </p>
+                <div class="flex flex-wrap items-center justify-center sm:justify-start gap-3">
+                  <a href="https://zalo.me/0792281999" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs sm:text-sm px-4 py-2.5 rounded-lg shadow-sm transition">
+                    💬 Gửi vị trí qua Zalo: 079.228.1999
+                  </a>
+                  <a href="tel:0792281999" class="bg-brand-red hover:bg-brand-darkred text-white font-bold text-xs sm:text-sm px-4 py-2.5 rounded-lg shadow-sm transition">
+                    📞 Gọi trực tiếp: 079.228.1999
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        </article>
 
       <!-- CỘT PHẢI: SIDEBAR CHUYỂN ĐỔI CAO (4 CỘT) -->
       <aside class="lg:col-span-4 space-y-6 lg:sticky lg:top-20">
@@ -485,10 +485,27 @@
     </div>
   </footer>
 
-  <div class="fixed bottom-6 left-6 z-50 flex flex-col gap-3">
-    <a href="https://zalo.me/0792281999" target="_blank" class="flex items-center gap-2 bg-[#0068FF] text-white px-3.5 py-2.5 rounded-full shadow-lg hover:scale-105 transition font-semibold text-xs animate-bounce" title="Chat Zalo">
-      <span class="w-2.5 h-2.5 bg-green-400 rounded-full animate-ping"></span>
-      <span>Zalo: 079.228.1999</span>
+  <!-- FLOATING CONTACT BUTTONS (XUYÊN SUỐT TẤT CẢ TRANG) -->
+  <div class="fixed bottom-6 left-4 sm:left-6 z-50 flex flex-col gap-2.5 pointer-events-auto">
+    <!-- Nút Zalo -->
+    <a href="https://zalo.me/0792281999" target="_blank" rel="noopener noreferrer" 
+       class="flex items-center gap-2 bg-[#0068FF] hover:bg-blue-700 text-white px-3.5 py-2.5 rounded-full shadow-2xl hover:scale-105 active:scale-95 transition-all duration-300 font-bold text-xs sm:text-sm border-2 border-white/40" 
+       title="Nhắn Zalo Lê Văn Hoài">
+      <span class="relative flex h-3 w-3">
+        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-300 opacity-75"></span>
+        <span class="relative inline-flex rounded-full h-3 w-3 bg-green-400"></span>
+      </span>
+      <span class="tracking-wide">Zalo: 079.228.1999</span>
+    </a>
+
+    <!-- Nút Gọi Hotline -->
+    <a href="tel:0792281999" 
+       class="flex items-center gap-2 bg-brand-red hover:bg-brand-darkred text-white px-3.5 py-2.5 rounded-full shadow-2xl hover:scale-105 active:scale-95 transition-all duration-300 font-bold text-xs sm:text-sm border-2 border-white/40 animate-pulse" 
+       title="Gọi Hotline Lê Văn Hoài">
+      <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+        <path d="M20 15.5c-1.2 0-2.4-.2-3.6-.6-.3-.1-.7 0-1 .2l-2.2 2.2c-2.8-1.4-5.1-3.8-6.6-6.6l2.2-2.2c.3-.3.4-.7.2-1-.4-1.1-.6-2.3-.6-3.5 0-.6-.4-1-1-1H4c-.6 0-1 .4-1 1 0 9.4 7.6 17 17 17 .6 0 1-.4 1-1v-3.5c0-.6-.4-1-1-1z"/>
+      </svg>
+      <span class="tracking-wide">Gọi: 079.228.1999</span>
     </a>
   </div>
 
