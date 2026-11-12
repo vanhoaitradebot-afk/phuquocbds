@@ -492,42 +492,104 @@
           <button class="w-9 h-9 flex items-center justify-center rounded-lg bg-white border border-gray-200 text-gray-700 hover:bg-gray-50">12</button>
         </div>
 
+      
+        <!-- KHỐI HỢP TÁC MÔI GIỚI & TUYỂN DỤNG CTV (TÍCH HỢP FORM MINI VÀ 2 BÀI VIẾT SEO) -->
+        <div id="sectionHopTacMoiGioi" class="mt-8 bg-white p-5 sm:p-6 rounded-2xl shadow-sm hover:shadow-md border border-gray-200 transition">
+          
+          <!-- Header khối -->
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 border-b border-gray-100">
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center flex-shrink-0 shadow-sm">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+              </div>
+              <div>
+                <div class="flex flex-wrap items-center gap-1.5">
+                  <h3 class="text-base sm:text-lg font-black text-gray-900">
+                    Hợp Tác Môi Giới & Tuyển Dụng CTV BĐS Phú Quốc
+                  </h3>
+                  <span class="text-[10px] bg-blue-100 text-blue-700 font-bold px-2 py-0.5 rounded-full">CHIA PHÍ 50/50</span>
+                  <span class="text-[10px] bg-emerald-100 text-emerald-700 font-bold px-2 py-0.5 rounded-full">HOA HỒNG 50 - 70%</span>
+                </div>
+                <p class="text-xs text-gray-500 mt-0.5">
+                  Cơ chế chia hoa hồng sòng phẳng · Hỗ trợ tra cứu quy hoạch CAD QĐ 150/QĐ-TTg miễn phí · Bảo mật nguồn hàng tuyệt đối
+                </p>
+              </div>
+            </div>
+            
+            <a href="hop-tac-moi-gioi.html" class="inline-flex items-center gap-1.5 text-xs font-bold text-blue-600 hover:text-blue-800 transition whitespace-nowrap self-start sm:self-center px-3 py-1.5 bg-blue-50 hover:bg-blue-100 rounded-xl">
+              <span>Trang chính sách riêng</span>
+              <span>→</span>
+            </a>
+          </div>
+
+          <!-- FORM MINI ĐIỀN TRỰC TIẾP (TÊN - SĐT - KHU VỰC) -->
+          <div class="mt-4">
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-bold text-gray-800 flex items-center gap-1.5">
+                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                <span>Đăng ký hợp tác nhanh (Điền 3 thông tin để anh Lê Văn Hoài hỗ trợ ngay):</span>
+              </span>
+              <span class="text-[11px] text-gray-400 hidden sm:inline">Hotline/Zalo: 079.228.1999</span>
+            </div>
+
+            <form class="grid grid-cols-1 sm:grid-cols-4 gap-2.5" onsubmit="submitHomepageBrokerMini(event, this)">
+              <div>
+                <input type="text" name="name" required placeholder="Họ tên của bạn *" class="w-full bg-gray-50 border border-gray-300 rounded-xl px-3 py-2 text-xs text-gray-900 placeholder-gray-400 focus:bg-white focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-100 transition">
+              </div>
+              <div>
+                <input type="tel" name="phone" required placeholder="Số điện thoại / Zalo *" class="w-full bg-gray-50 border border-gray-300 rounded-xl px-3 py-2 text-xs text-gray-900 placeholder-gray-400 focus:bg-white focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-100 transition">
+              </div>
+              <div>
+                <input type="text" name="area" required placeholder="Khu vực nắm đất (Bến Tràm, Cửa Cạn...)" class="w-full bg-gray-50 border border-gray-300 rounded-xl px-3 py-2 text-xs text-gray-900 placeholder-gray-400 focus:bg-white focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-100 transition">
+              </div>
+              <div>
+                <button type="submit" class="w-full bg-[#0068FF] hover:bg-blue-700 text-white font-bold text-xs py-2 px-3 rounded-xl shadow-sm transition active:scale-95 flex items-center justify-center gap-1.5 h-full">
+                  <span>Gửi đăng ký</span>
+                  <span>➔</span>
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <!-- 2 BÀI VIẾT TUYỂN DỤNG & HỢP TÁC ĐỂ SEO NẰM TRONG KHỐI NÀY -->
+          <div class="mt-4 pt-3.5 border-t border-dashed border-gray-200">
+            <div class="flex items-center gap-1.5 mb-2">
+              <span class="text-[11px] font-bold text-slate-500 uppercase tracking-wider">📚 Bài viết tuyển dụng & liên kết môi giới chuyên sâu:</span>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+              
+              <a href="bai-viet/tuyen-dung-moi-gioi-bds-phu-quoc-hoa-hong-cao.html" class="flex items-center gap-2.5 p-2.5 rounded-xl bg-slate-50 hover:bg-blue-50 border border-gray-200/80 hover:border-blue-200 transition group">
+                <span class="w-8 h-8 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-black flex-shrink-0">1</span>
+                <div class="flex-1 min-w-0">
+                  <h4 class="text-xs font-bold text-gray-900 group-hover:text-blue-700 truncate">
+                    Tuyển Dụng Môi Giới BĐS Phú Quốc 2026: Hoa Hồng 50 - 70%
+                  </h4>
+                  <span class="text-[10px] text-gray-500 block truncate">Không áp KPI doanh số · Cung cấp hàng ngộp · Hỗ trợ CAD 2040</span>
+                </div>
+                <span class="text-xs text-blue-600 font-bold group-hover:translate-x-0.5 transition flex-shrink-0">→</span>
+              </a>
+
+              <a href="bai-viet/chinh-sach-hop-tac-lien-ket-moi-gioi-nha-dat-phu-quoc.html" class="flex items-center gap-2.5 p-2.5 rounded-xl bg-slate-50 hover:bg-blue-50 border border-gray-200/80 hover:border-blue-200 transition group">
+                <span class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center text-xs font-black flex-shrink-0">2</span>
+                <div class="flex-1 min-w-0">
+                  <h4 class="text-xs font-bold text-gray-900 group-hover:text-emerald-700 truncate">
+                    Chính Sách Hợp Tác & Liên Kết Nguồn Hàng Môi Giới Phú Quốc
+                  </h4>
+                  <span class="text-[10px] text-gray-500 block truncate">Chia phí 50/50 sòng phẳng · Bảo mật nguồn hàng 100%</span>
+                </div>
+                <span class="text-xs text-blue-600 font-bold group-hover:translate-x-0.5 transition flex-shrink-0">→</span>
+              </a>
+
+            </div>
+          </div>
+
+        </div>
+        <!-- /KHỐI HỢP TÁC MÔI GIỚI -->
+
       </div>
 
       <!-- RIGHT COLUMN: SIDEBAR WIDGETS (4 cols) -->
       <aside class="lg:col-span-4 space-y-6">
-
-        <!-- WIDGET 1: MÔI GIỚI LÊ VĂN HOÀI (PHUQUOCBDS.COM) -->
-        <div class="bg-gradient-to-br from-slate-900 to-slate-800 text-white rounded-2xl p-5 shadow-lg border border-slate-700">
-          <div class="flex items-center gap-3 mb-3">
-            <div class="w-12 h-12 rounded-full border-2 border-brand-red bg-brand-red text-white flex items-center justify-center font-black text-lg flex-shrink-0 shadow">
-              LVH
-            </div>
-            <div>
-              <div class="flex items-center gap-1.5">
-                <h3 class="font-bold text-sm text-white">Lê Văn Hoài</h3>
-                <span class="bg-emerald-500/20 text-emerald-400 text-[10px] px-1.5 py-0.5 rounded font-bold">Chính chủ / Môi giới</span>
-              </div>
-              <p class="text-xs text-gray-300 font-medium">Chuyên BĐS Phú Quốc & Săn hàng ngộp</p>
-            </div>
-          </div>
-          <p class="text-xs text-gray-300 leading-relaxed mb-4">
-            Trực tiếp tư vấn, kiểm tra quy hoạch 1/2000 theo QĐ 150/QĐ-TTg, dẫn xem thực địa các lô đất thổ cư sạch và BĐS dòng tiền giá ngộp tốt nhất đảo.
-          </p>
-          <div class="space-y-2">
-            <a href="https://zalo.me/0792281999" target="_blank" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 px-4 rounded-xl text-xs flex items-center justify-center gap-2 shadow-md transition active:scale-95">
-              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12c0 2.22.73 4.27 1.96 5.92L2.5 21.5l3.82-1.39C7.88 21.19 9.87 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm1 14h-2v-2h2v2zm0-4h-2V7h2v5z"/></svg>
-              <span>Kết nối Zalo: 079.228.1999</span>
-            </a>
-            <a href="tel:0792281999" id="btnSidebarCallAgent" class="w-full bg-brand-red hover:bg-brand-darkred text-white font-bold py-2.5 px-4 rounded-xl text-xs flex items-center justify-center gap-2 shadow-md transition active:scale-95">
-              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20 15.5c-1.2 0-2.4-.2-3.6-.6-.3-.1-.7 0-1 .2l-2.2 2.2c-2.8-1.4-5.1-3.8-6.6-6.6l2.2-2.2c.3-.3.4-.7.2-1-.4-1.1-.6-2.3-.6-3.5 0-.6-.4-1-1-1H4c-.6 0-1 .4-1 1 0 9.4 7.6 17 17 17 .6 0 1-.4 1-1v-3.5c0-.6-.4-1-1-1z"/></svg>
-              <span>Gọi ngay: 079.228.1999</span>
-            </a>
-            <button id="btnSidebarCheckQuyHoach" class="w-full bg-slate-700 hover:bg-slate-600 text-gray-200 font-semibold py-2 px-4 rounded-xl text-xs flex items-center justify-center gap-1.5 transition">
-              <span>Gửi sổ kiểm tra quy hoạch miễn phí</span>
-            </button>
-          </div>
-        </div>
 
         <!-- WIDGET 2: BẢNG GIÁ ĐẤT PHÚ QUỐC 2026 -->
         <div class="bg-white rounded-2xl p-5 border border-gray-200 shadow-sm">
@@ -968,104 +1030,46 @@
   </section>
 
   
-  <!-- SECTION: HỢP TÁC MÔI GIỚI & TUYỂN DỤNG CTV BĐS PHÚ QUỐC -->
-  <section id="sectionHopTacMoiGioi" class="bg-gradient-to-b from-slate-50 via-white to-slate-50 border-t border-gray-200 py-12">
+  <!-- SECTION: LIÊN HỆ CHUYÊN VIÊN LÊ VĂN HOÀI (KHỐI ĐEN CHUYỂN VỀ CUỐI CÙNG TRƯỚC FOOTER) -->
+  <section class="bg-slate-900 py-10 border-t border-slate-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="bg-white p-6 sm:p-8 rounded-3xl shadow-sm hover:shadow-md border border-gray-200 transition">
+      <div class="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white rounded-3xl p-6 sm:p-8 shadow-2xl border border-slate-700 flex flex-col md:flex-row items-center justify-between gap-6">
         
-        <!-- Header khối -->
-        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-5 border-b border-gray-100">
-          <div class="flex items-center gap-4">
-            <div class="w-14 h-14 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center flex-shrink-0 shadow-sm">
-              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
-            </div>
-            <div>
-              <div class="flex flex-wrap items-center gap-2">
-                <h3 class="text-lg sm:text-xl font-black text-gray-900">
-                  Hợp Tác Môi Giới & Tuyển Dụng CTV Bất Động Sản Phú Quốc
-                </h3>
-                <span class="text-xs bg-blue-100 text-blue-700 font-bold px-2.5 py-0.5 rounded-full">CHIA PHÍ 50/50</span>
-                <span class="text-xs bg-emerald-100 text-emerald-700 font-bold px-2.5 py-0.5 rounded-full">HOA HỒNG 50 - 70%</span>
-              </div>
-              <p class="text-xs sm:text-sm text-gray-500 mt-1">
-                Cơ chế hoa hồng minh bạch · Hỗ trợ tra cứu quy hoạch CAD 2040 chuẩn QĐ 150/QĐ-TTg miễn phí · Cam kết bảo mật tuyệt đối nguồn hàng và khách hàng đối tác
-              </p>
-            </div>
+        <div class="flex items-center gap-4">
+          <div class="w-16 h-16 rounded-full border-2 border-brand-red bg-brand-red text-white flex items-center justify-center font-black text-2xl flex-shrink-0 shadow-lg">
+            LVH
           </div>
-          
-          <a href="hop-tac-moi-gioi.html" class="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-blue-600 hover:text-blue-800 transition whitespace-nowrap self-start md:self-center px-4 py-2 bg-blue-50 hover:bg-blue-100 rounded-xl">
-            <span>Xem trang chính sách chi tiết</span>
-            <span>→</span>
+          <div>
+            <div class="flex flex-wrap items-center gap-2">
+              <h3 class="font-bold text-lg sm:text-xl text-white">Lê Văn Hoài</h3>
+              <span class="bg-emerald-500/20 text-emerald-400 text-xs px-2 py-0.5 rounded font-bold">Chính chủ / Môi giới</span>
+            </div>
+            <p class="text-xs sm:text-sm text-gray-300 font-medium mt-0.5">Chuyên BĐS Phú Quốc & Săn hàng ngộp</p>
+            <p class="text-xs sm:text-sm text-gray-300 leading-relaxed mt-2 max-w-2xl">
+              Trực tiếp tư vấn, kiểm tra quy hoạch 1/2000 theo QĐ 150/QĐ-TTg, dẫn xem thực địa các lô đất thổ cư sạch và BĐS dòng tiền giá ngộp tốt nhất đảo.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row md:flex-col gap-2.5 w-full md:w-auto flex-shrink-0">
+          <a href="https://zalo.me/0792281999" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl text-xs sm:text-sm flex items-center justify-center gap-2 shadow-md transition active:scale-95 whitespace-nowrap">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12c0 2.22.73 4.27 1.96 5.92L2.5 21.5l3.82-1.39C7.88 21.19 9.87 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm1 14h-2v-2h2v2zm0-4h-2V7h2v5z"/></svg>
+            <span>Kết nối Zalo: 079.228.1999</span>
           </a>
-        </div>
-
-        <!-- FORM MINI ĐIỀN TRỰC TIẾP (TÊN - SĐT - KHU VỰC) -->
-        <div class="mt-6">
-          <div class="flex items-center justify-between mb-2.5">
-            <span class="text-xs sm:text-sm font-bold text-gray-800 flex items-center gap-2">
-              <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
-              <span>Đăng ký hợp tác nhanh (Điền 3 thông tin để anh Lê Văn Hoài hỗ trợ ngay):</span>
-            </span>
-            <span class="text-xs text-gray-500 font-semibold hidden sm:inline">Hotline/Zalo trực tiếp: <strong class="text-brand-red">079.228.1999</strong></span>
-          </div>
-
-          <form class="grid grid-cols-1 sm:grid-cols-4 gap-3" onsubmit="submitHomepageBrokerMini(event, this)">
-            <div>
-              <input type="text" name="name" required placeholder="Họ tên của bạn *" class="w-full bg-gray-50 border border-gray-300 rounded-xl px-3.5 py-2.5 text-xs sm:text-sm text-gray-900 placeholder-gray-400 focus:bg-white focus:outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition">
-            </div>
-            <div>
-              <input type="tel" name="phone" required placeholder="Số điện thoại / Zalo *" class="w-full bg-gray-50 border border-gray-300 rounded-xl px-3.5 py-2.5 text-xs sm:text-sm text-gray-900 placeholder-gray-400 focus:bg-white focus:outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition">
-            </div>
-            <div>
-              <input type="text" name="area" required placeholder="Khu vực nắm đất (Bến Tràm, Cửa Cạn, Hàm Ninh...)" class="w-full bg-gray-50 border border-gray-300 rounded-xl px-3.5 py-2.5 text-xs sm:text-sm text-gray-900 placeholder-gray-400 focus:bg-white focus:outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition">
-            </div>
-            <div>
-              <button type="submit" class="w-full bg-[#0068FF] hover:bg-blue-700 text-white font-bold text-xs sm:text-sm py-2.5 px-4 rounded-xl shadow-md transition active:scale-95 flex items-center justify-center gap-2 h-full">
-                <span>Gửi đăng ký hợp tác</span>
-                <span>➔</span>
-              </button>
-            </div>
-          </form>
-        </div>
-
-        <!-- 2 BÀI VIẾT TUYỂN DỤNG & HỢP TÁC ĐỂ SEO NẰM TRONG KHỐI NÀY -->
-        <div class="mt-6 pt-5 border-t border-dashed border-gray-200">
-          <div class="flex items-center gap-2 mb-3">
-            <span class="text-xs font-bold text-slate-500 uppercase tracking-wider">📚 Bài viết tuyển dụng & liên kết môi giới chuyên sâu:</span>
-          </div>
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            
-            <a href="bai-viet/tuyen-dung-moi-gioi-bds-phu-quoc-hoa-hong-cao.html" class="flex items-center gap-3 p-3.5 rounded-2xl bg-slate-50 hover:bg-blue-50 border border-gray-200/80 hover:border-blue-200 transition group">
-              <span class="w-9 h-9 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center text-sm font-black flex-shrink-0">1</span>
-              <div class="flex-1 min-w-0">
-                <h4 class="text-xs sm:text-sm font-bold text-gray-900 group-hover:text-blue-700 truncate">
-                  Tuyển Dụng Môi Giới BĐS Phú Quốc 2026: Hoa Hồng 50 - 70%
-                </h4>
-                <span class="text-xs text-gray-500 block truncate mt-0.5">Không áp KPI doanh số · Cung cấp nguồn hàng ngộp độc quyền · Hỗ trợ check file CAD 2040</span>
-              </div>
-              <span class="text-sm text-blue-600 font-bold group-hover:translate-x-1 transition flex-shrink-0">→</span>
-            </a>
-
-            <a href="bai-viet/chinh-sach-hop-tac-lien-ket-moi-gioi-nha-dat-phu-quoc.html" class="flex items-center gap-3 p-3.5 rounded-2xl bg-slate-50 hover:bg-blue-50 border border-gray-200/80 hover:border-blue-200 transition group">
-              <span class="w-9 h-9 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center text-sm font-black flex-shrink-0">2</span>
-              <div class="flex-1 min-w-0">
-                <h4 class="text-xs sm:text-sm font-bold text-gray-900 group-hover:text-emerald-700 truncate">
-                  Chính Sách Hợp Tác & Liên Kết Nguồn Hàng Môi Giới Phú Quốc
-                </h4>
-                <span class="text-xs text-gray-500 block truncate mt-0.5">Chia phí 50/50 sòng phẳng · Bảo mật nguồn hàng 100% · Cùng ráp khách và chốt cọc nhanh</span>
-              </div>
-              <span class="text-sm text-blue-600 font-bold group-hover:translate-x-1 transition flex-shrink-0">→</span>
-            </a>
-
-          </div>
+          <a href="tel:0792281999" id="btnSidebarCallAgent" class="bg-brand-red hover:bg-brand-darkred text-white font-bold py-3 px-6 rounded-xl text-xs sm:text-sm flex items-center justify-center gap-2 shadow-md transition active:scale-95 whitespace-nowrap">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20 15.5c-1.2 0-2.4-.2-3.6-.6-.3-.1-.7 0-1 .2l-2.2 2.2c-2.8-1.4-5.1-3.8-6.6-6.6l2.2-2.2c.3-.3.4-.7.2-1-.4-1.1-.6-2.3-.6-3.5 0-.6-.4-1-1-1H4c-.6 0-1 .4-1 1 0 9.4 7.6 17 17 17 .6 0 1-.4 1-1v-3.5c0-.6-.4-1-1-1z"/></svg>
+            <span>Gọi ngay: 079.228.1999</span>
+          </a>
+          <button id="btnSidebarCheckQuyHoach" class="bg-slate-700 hover:bg-slate-600 text-gray-200 font-semibold py-2.5 px-6 rounded-xl text-xs flex items-center justify-center gap-1.5 transition whitespace-nowrap">
+            <span>Gửi sổ kiểm tra quy hoạch miễn phí</span>
+          </button>
         </div>
 
       </div>
 
     </div>
   </section>
-  <!-- /SECTION: HỢP TÁC MÔI GIỚI & TUYỂN DỤNG CTV -->
 
   <!-- FOOTER -->
   <footer class="bg-slate-900 text-gray-400 text-xs border-t border-slate-800 mt-12 py-10">
