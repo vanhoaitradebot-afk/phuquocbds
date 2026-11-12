@@ -259,7 +259,56 @@
           </ul>
 
           <!-- ========================================== -->
-          <!-- MA TRẬN KIẾN THỨC BĐS PHÚ QUỐC (BÀI LIÊN QUAN) -->
+          
+        <!-- =================================================== -->
+        <!-- FORM HỢP TÁC MÔI GIỚI PHÚ QUỐC (TÊN - SĐT - KHU VỰC) -->
+        <!-- =================================================== -->
+        <div class="my-8 p-5 sm:p-6 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white rounded-2xl shadow-lg border border-slate-700">
+          <div class="flex items-center justify-between pb-3 mb-3 border-b border-slate-700/80">
+            <div>
+              <span class="text-[10px] sm:text-xs bg-blue-500/20 text-blue-400 font-black uppercase px-2.5 py-0.5 rounded-full border border-blue-500/30">
+                🤝 Dành Cho Môi Giới & CTV Bản Địa
+              </span>
+              <h3 class="text-base sm:text-lg font-black text-white mt-1.5 flex items-center gap-2">
+                Hợp Tác Môi Giới Phú Quốc — Kết Nối Nguồn Hàng
+              </h3>
+            </div>
+            <span class="hidden sm:inline-block text-xs text-amber-400 font-bold bg-amber-400/10 px-2.5 py-1 rounded-full border border-amber-400/20">
+              Chia phí 50/50
+            </span>
+          </div>
+          <p class="text-xs text-slate-300 mb-4 leading-relaxed">
+            Bạn đang nắm nguồn hàng đất ngộp, đất đẹp tại khu vực này? Gửi thông tin hợp tác cùng <strong>Lê Văn Hoài</strong> để được hỗ trợ check quy hoạch CAD 2040 miễn phí và ra hàng thần tốc!
+          </p>
+
+          <form class="broker-article-form space-y-3" onsubmit="handleArticleBrokerSubmit(event, this)">
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              <div>
+                <label class="block text-[11px] font-bold text-slate-300 mb-1">Tên của bạn *</label>
+                <input type="text" name="bName" required placeholder="Ví dụ: Anh Tuấn" class="w-full bg-slate-800 border border-slate-600 rounded-xl px-3 py-2 text-xs text-white placeholder-slate-400 focus:outline-none focus:border-blue-500 focus:bg-slate-700/60 transition">
+              </div>
+              <div>
+                <label class="block text-[11px] font-bold text-slate-300 mb-1">Số điện thoại / Zalo *</label>
+                <input type="tel" name="bPhone" required placeholder="09xxxxxxxx" class="w-full bg-slate-800 border border-slate-600 rounded-xl px-3 py-2 text-xs text-white placeholder-slate-400 focus:outline-none focus:border-blue-500 focus:bg-slate-700/60 transition">
+              </div>
+              <div>
+                <label class="block text-[11px] font-bold text-slate-300 mb-1">Khu vực nắm nguồn hàng *</label>
+                <input type="text" name="bArea" required placeholder="Bến Tràm, Cửa Cạn..." class="w-full bg-slate-800 border border-slate-600 rounded-xl px-3 py-2 text-xs text-white placeholder-slate-400 focus:outline-none focus:border-blue-500 focus:bg-slate-700/60 transition">
+              </div>
+            </div>
+            <div class="pt-1 flex flex-col sm:flex-row items-center justify-between gap-3">
+              <span class="text-[11px] text-slate-400 italic">🔒 Bảo mật 100% nguồn hàng · Không qua mặt đối tác</span>
+              <button type="submit" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#0068FF] hover:bg-blue-700 text-white font-bold text-xs py-2.5 px-6 rounded-xl shadow-md transition active:scale-95 whitespace-nowrap">
+                <span>Gửi thông tin hợp tác ngay</span>
+                <span>➔</span>
+              </button>
+            </div>
+          </form>
+        </div>
+        <!-- /FORM HỢP TÁC MÔI GIỚI -->
+
+
+        <!-- MA TRẬN KIẾN THỨC BĐS PHÚ QUỐC (BÀI LIÊN QUAN) -->
           <!-- ========================================== -->
           <section class="my-10 pt-8 border-t-2 border-dashed border-gray-200">
             <div class="flex items-center justify-between mb-5">
