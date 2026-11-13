@@ -1609,6 +1609,34 @@
     // ================= DATA REPOSITORY =================
     const propertiesData = [
       {
+        id: 101,
+        title: "Cần bán nhà cấp 4 TĐC Khu phố 5 Dương Đông (6m x 18m) - 100% Thổ cư ODT, đang cho thuê có dòng tiền, cách chợ 2km",
+        category: "ban", // ban, ngop, thue, duan
+        type: "nha_pho", // nha_pho, dat_nen, biet_thu, can_ho, dong_tien
+        location: "duongdong",
+        locationName: "Khu tái định cư Khu phố 5, Phường Dương Đông, TP. Phú Quốc",
+        priceNum: 5.0, // In Billions VND
+        priceText: "5 tỷ",
+        originalPrice: "5.3 tỷ",
+        areaNum: 108,
+        areaText: "108 m² (6m x 18m)",
+        pricePerM2: "46.3 tr/m²",
+        legal: "Sổ hồng riêng, 100% Thổ cư ODT sang tên ngay",
+        roadWidth: "Đường nhựa quy hoạch TĐC 8m ô tô tránh nhau thoải mái",
+        planningStatus: "100% Đất ở đô thị (ODT) Khu TĐC KP5 Dương Đông, quy hoạch sạch QĐ 150/QĐ-TTg, điện nước ngầm",
+        frontage: "6m",
+        direction: "Đông Nam",
+        badge: "Đang có dòng tiền",
+        badgeType: "primary", // danger, warning, primary
+        verified: true,
+        image: "img/ban-nha-cap-4-tdc-khu-pho-5-duong-dong.jpg",
+        description: "Cần Bán nhà cấp 4 tại Khu tái định cư Khu phố 5, Phường Dương Đông, Đặc khu Phú Quốc.\n\n_ Nhà đang cho thuê có thu nhập dòng tiền ổn định (1 phòng khách, 2 phòng ngủ, 2WC, bếp, sân trước cổng sắt kiên cố).\n_ Mặt tiền 6m × 18m vuông vức.\n_ Diện tích: 108 m², 100% thổ cư ODT sổ hồng riêng chính chủ, sang tên trong ngày.\n⚡ Vị trí trung tâm, phù hợp để xây nhà ở nghỉ dưỡng, khách sạn hoặc kinh doanh, đầu tư lâu dài, thuận tiện đi lại:\n  - Cách chợ Dương Đông 2km\n  - Cách bãi biển Dinh Cậu 2,5km\n  - Cách quảng trường TP. Phú Quốc 1km\n👍 Giá 5 TỶ (Thương lượng). Có chính sách liên kết Môi giới 50/50 minh bạch.",
+        contactName: "Lê Văn Hoài (079.228.1999)",
+        phone: "079.228.1999",
+        postedTime: "Vừa đăng",
+        articleUrl: "bai-viet/ban-nha-cap-4-tai-dinh-cu-khu-pho-5-duong-dong-phu-quoc.html"
+      },
+      {
         id: 1,
         title: "Chủ ngộp ngân hàng xả lỗ 600 triệu - Lô thổ cư 120m² Cửa Cạn, sổ sẵn công chứng trong ngày",
         category: "ngop", // ngop, ban, thue, duan
@@ -2097,6 +2125,11 @@
                     </button>
                   ` : ''}
 
+                  ${item.articleUrl ? `
+                    <a href="${item.articleUrl}" class="text-xs font-bold text-sky-700 hover:text-sky-900 bg-sky-50 hover:bg-sky-100 border border-sky-200 px-2.5 py-1.5 rounded-lg transition flex items-center gap-1">
+                      <span>Bài phân tích & Co-Broke</span>
+                    </a>
+                  ` : ''}
                   <button onclick="openDetailModal(${item.id})" class="text-xs font-bold text-gray-700 hover:text-brand-red bg-gray-100 hover:bg-red-50 px-2.5 py-1.5 rounded-lg transition">
                     Chi tiết
                   </button>
@@ -2320,6 +2353,30 @@
               </button>
             </div>
           </div>
+
+          ${item.articleUrl ? `
+          <!-- DEDICATED ARTICLE & BROKER CO-BROKE BOX -->
+          <div class="p-5 bg-gradient-to-r from-sky-900 via-blue-900 to-indigo-950 text-white rounded-2xl space-y-3 shadow-md border border-sky-700">
+            <div class="flex items-center justify-between flex-wrap gap-2">
+              <div class="flex items-center gap-2">
+                <span class="bg-amber-400 text-slate-900 text-xs font-black px-2.5 py-1 rounded">HOT BĐS</span>
+                <span class="text-sm font-bold text-amber-200">Bài Phân Tích Thực Địa & Bản Đồ Quy Hoạch Chi Tiết</span>
+              </div>
+              <a href="${item.articleUrl}" class="bg-amber-400 hover:bg-amber-300 text-slate-900 text-xs font-black px-4 py-2 rounded-xl shadow transition flex items-center gap-1">
+                <span>Mở Trang Phân Tích & Co-Broke ↗</span>
+              </a>
+            </div>
+            <div class="text-xs text-sky-100 flex items-center justify-between flex-wrap gap-2 pt-2.5 border-t border-sky-800/80">
+              <div class="flex items-center gap-1.5">
+                <span class="text-amber-300 font-bold">🤝 Dành cho Anh Em Môi Giới:</span>
+                <span>Hoa hồng 50/50 minh bạch · Tải ảnh sạch & Nhận sổ qua Zalo</span>
+              </div>
+              <a href="https://zalo.me/0792281999?text=Chào%20anh%20Hoài,%20tôi%20là%20Môi%20giới%20muốn%20kết%20nối%20nguồn%20hàng%20nhà%20cấp%204%20TĐC%20KP5%20Dương%20Đông%20giá%205%20tỷ" target="_blank" class="bg-sky-600 hover:bg-sky-500 text-white font-bold px-3 py-1.5 rounded-lg text-xs transition">
+                Nhắn Zalo Nhận Trích Lục Sổ
+              </a>
+            </div>
+          </div>
+          ` : ''}
 
           <!-- SELLER CONTACT BAR -->
           <div class="p-4 bg-slate-900 text-white rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4">
