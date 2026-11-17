@@ -180,4 +180,10 @@
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
+  <url>
+    <loc>https://phuquocbds.surge.sh/bai-viet/quy-trinh-dan-khach-thuc-dia-va-nghe-thuat-chot-coc-bds-phu-quoc.html</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
