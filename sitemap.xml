@@ -174,4 +174,10 @@
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
+  <url>
+    <loc>https://phuquocbds.surge.sh/bai-viet/bang-gia-dat-duong-bao-bai-truong-phu-quoc-moi-nhat.html</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
