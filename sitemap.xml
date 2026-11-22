@@ -240,4 +240,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
+  <url>
+    <loc>https://phuquocbds.surge.sh/bai-viet/ky-nang-tu-van-tai-cau-truc-danh-muc-bds-phu-quoc-cho-moi-gioi.html</loc>
+    <lastmod>2026-11-22T19:00:00+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
 </urlset>
