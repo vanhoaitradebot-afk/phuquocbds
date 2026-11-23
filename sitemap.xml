@@ -246,4 +246,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
+  <url>
+    <loc>https://phuquocbds.surge.sh/bai-viet/quy-trinh-chuyen-nhuong-sang-ten-so-do-phu-quoc-2026.html</loc>
+    <lastmod>2026-11-23T07:00:00+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
 </urlset>
