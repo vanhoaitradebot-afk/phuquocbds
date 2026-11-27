@@ -294,4 +294,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
+  <url>
+    <loc>https://phuquocbds.surge.sh/bai-viet/bang-gia-dat-duong-ba-trai-phu-quoc-moi-nhat.html</loc>
+    <lastmod>2026-11-27T07:00:00+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
 </urlset>
