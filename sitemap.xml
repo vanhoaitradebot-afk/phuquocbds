@@ -312,4 +312,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
+  <url>
+    <loc>https://phuquocbds.surge.sh/bai-viet/ky-nang-kiem-tra-ranh-moc-va-phap-ly-thuc-dia-bds-phu-quoc.html</loc>
+    <lastmod>2026-11-28T19:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
 </urlset>
